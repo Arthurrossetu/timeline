@@ -64,3 +64,26 @@ body{
     padding: 1%;
 
 }
+
+.btn{
+    background: #333;
+    color: #FFF;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.btn:hover{
+    background: #666
+}
+
+.caixa-botao{
+    display: flex;
+    justify-content: flex-end;
+}
